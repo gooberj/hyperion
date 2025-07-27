@@ -1,12 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/serverfiles/styles.css">
-</head>
-<body>
-    <div class="filebox"></div>
-</body>
+<!doctype html>
+<html>
+  <head>
+    <title>File Upload</title>
+  </head>
+  <body>
+    <h1>File Upload</h1>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+      <p><input type="file" name="file"></p>
+      <p><input type="submit" value="Submit"></p>
+    </form>
+  </body>
 </html>
